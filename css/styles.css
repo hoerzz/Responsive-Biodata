@@ -34,7 +34,7 @@ body{
 }
 
 .wrapper .left{
-  width: 35%;
+  width: 100%;
   background: linear-gradient(to right,#363996,#adb1c9);
   padding: 30px 25px;
   border-top-left-radius: 5px;
@@ -69,7 +69,7 @@ body{
   font-size: 12px;
 }*/
 .wrapper .right{
-  width: 65%;
+  width: 100%;
   background: #fff;
   padding: 30px 25px;
   border-top-right-radius: 5px;
