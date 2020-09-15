@@ -25,13 +25,17 @@ body{
 
 .wrapper{
   position: absolute;
-  top: 50%;
+  top: 60%;
+  /*display: flex;*/
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 450px;
-  display: flex;
   box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+  max-width: 980px;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 0;
 }
+ 
 
 .wrapper .left{
   width: 100%;
@@ -152,3 +156,19 @@ p:hover {
     -webkit-mask-position: -50%;
   }
 
+@media screen and (max-width: 340px) {
+    
+    .wrapper {
+        width: 100%;
+    }
+    .wrapper .left {
+        width: 25%;
+        background-color: #89d0ff;
+    }
+    .wrapper .right {
+        clear: both;
+        padding: 1% 4%;
+        width: auto;
+        float: none;
+    }
+}
